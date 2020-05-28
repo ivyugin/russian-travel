@@ -1,0 +1,11 @@
+@import url(./../styles/normalize.css);
+@import url(./../font/font.css);
+@import url(./../bloks/header/header.css);
+@import url(./../bloks/page/page.css);
+@import url(./../bloks/lead/lead.css);
+@import url(./../bloks/intro/intro.css);
+@import url(./../bloks/photo-grid/photo-grid.css);
+@import url(./../bloks/places/places.css);
+@import url(./../bloks/place/place.css);
+@import url(./../bloks/cover/cover.css);
+@import url(./../bloks/footer/footer.css);

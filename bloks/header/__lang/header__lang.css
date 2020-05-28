@@ -1,0 +1,6 @@
+@import url(./_lang-link/header__lang_lang-link.css);
+
+.header__lang {
+  align-self: center;
+  justify-self: end;
+}

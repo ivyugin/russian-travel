@@ -1,0 +1,19 @@
+@import url(./__link/footer__link.css);
+@import url(./__copyright/footer__copyright.css);
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(5, auto) 1fr;
+  max-width: 1184px;
+  width: 90%;
+  margin: 0 auto;
+
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, auto);
+
+  }
+}
