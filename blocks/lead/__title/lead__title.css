@@ -2,8 +2,9 @@
   
   width: 90%;
   max-width: 720px;
+  font-weight: 900;
   font-size: 96px;
-  line-height: 1.04;
+  line-height: 100px;
   /* or 104% */
 
   text-align: center;
