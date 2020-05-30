@@ -1,5 +1,5 @@
 @import url(./_link/header__lang_link-active.css);
-@import url(./_link/eader__lang_link-disabled.css);
+@import url(./_link/header__lang_link-disabled.css);
 
 .header__lang {
   color: #FFFFFF;
