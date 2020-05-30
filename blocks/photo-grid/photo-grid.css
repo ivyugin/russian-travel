@@ -3,7 +3,7 @@
 .photo-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(284px, 1fr));
-  grid-template-rows: repeat(3, minmax(213px, auto));
+  grid-template-rows: repeat(3, minmax(188px, auto));
   grid-gap: 16px;
 
   justify-content: center;

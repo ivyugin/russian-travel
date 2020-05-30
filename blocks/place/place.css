@@ -4,6 +4,7 @@
 @import url(./__paragraph/place__paragraph.css);
 @import url(./__url-heading/place__url-heading.css);
 @import url(./__link/place__link.css);
+@import url(./__description/place__description.css);
 
 .place {
   display: grid;
@@ -11,6 +12,7 @@
   grid-template-rows: repeat(2, auto);
   grid-column-gap: 40px;
   grid-row-gap: 48px;
+  grid-template-areas: "title website" "img description";
 
   justify-content: center;
   max-width: 984px;
@@ -47,5 +49,6 @@
     grid-template-rows: repeat(3, auto);
     grid-row-gap: 32px;
     margin-top: 48px;
+    grid-template-areas: "title" "img" "description";
   }
 }

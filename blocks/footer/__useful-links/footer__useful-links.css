@@ -1,0 +1,13 @@
+.footer__useful-links {
+  display: grid;
+  grid-template-columns: repeat(5, auto) 1fr;
+
+}
+
+@media screen and (max-width: 767px) {
+  .footer__useful-links {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, auto);
+
+  }
+}

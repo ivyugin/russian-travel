@@ -1,6 +1,21 @@
-@import url(./_lang-link/header__lang_lang-link.css);
+@import url(./_link/header__lang_link-active.css);
+@import url(./_link/eader__lang_link-disabled.css);
 
 .header__lang {
-  align-self: center;
-  justify-self: end;
+  color: #FFFFFF;
+  font-size: 24px;
+  line-height: 28px;
+  margin-right: 18px;
+  transition: opacity 0.5s ease-out;
+}
+
+.header__lang:last-child {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .header__lang {
+    font-size: 18px;
+    line-height: 1.33;
+  }
 }

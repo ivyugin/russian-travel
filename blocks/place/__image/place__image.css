@@ -1,4 +1,5 @@
 .place__image {
+  grid-area: img;
   width: 460px;
   object-fit: cover;
 }
