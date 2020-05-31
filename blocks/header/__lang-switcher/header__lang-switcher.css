@@ -1,3 +1,6 @@
+
+/*Класс - обёртка для элементов переключения языков,
+позиционирует их в шапке*/
 .header__lang-switcher {
   align-self: center;
   justify-self: end;
